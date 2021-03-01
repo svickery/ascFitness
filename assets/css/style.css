@@ -20,15 +20,22 @@ html {
 /****************************** Headings **********************************/
 
 .nav-link {
-    font-size: 25px;
+    font-size: 20px;
+    color: #00bdb1;
 }
 .navbar {
     background-color: black;
+    color: #00bdb1;
 }
 
 .navbar-logo    {
     height: auto;
-    width: 100px;
+    width: 80px;
+}
+
+h2  {
+    color: #00bdb1;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 /************************************* Parallax ***************************************/
@@ -52,26 +59,31 @@ html {
 .parallax1 {
     background-image: url(../img/fitnessone1.jpg);
     height: 100%;
+    width: 100%;
 }
 
 .parallax2 {
     background-image: url(../img/ftinesstwo2.jpg);
     height: 80%;
+    width: 100%;
 }
 
 .parallax3 {
     background-image: url(../img/fitnessthree3.jpg);
     height: 80%;
+    width: 100%;
 }
 
 .parallax4 {
     background-image: url(../img/fitnessfour4.jpg);
     height: 80%;
+    width: 100%;
 }
 
 .parallax5 {
-    background-image: url();
+    background-image: url(../img/fitnessfive5.jpg);
     height: 80%;
+    width: 100%;
 }
 
 /**************************** Sections ***********************************/
@@ -89,7 +101,7 @@ section {
 }
 
 p {
-    font-family: "Dosis", sans-serif;
+    font-family: "Sans Source Pro", sans-serif;
     font-weight: 200;
     text-align: center;
 }
@@ -98,7 +110,7 @@ p {
 /************************************ Navbar ****************************************/
 
 .contact-para {
-    color: #fff;
+    color: #00bdb1;
     font-family: "Sans Source Pro", sans-serif;
     font-weight: 300;
     text-align: center;
@@ -108,7 +120,7 @@ p {
 .far {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 20px;
-    color: #fff;
+    color: #00bdb1;
     padding-bottom: 10px;
     text-align: center;
 }
@@ -119,12 +131,12 @@ p {
 }
 
 nav li a {
-    color: darkgray;
+    color: #00bdb1;
 }
 
 nav li a:hover {
     text-decoration: none;
-    color: white;
+    color: #00bdb1;
 }
 
 /****************************** Contact Form **************************/
@@ -138,14 +150,15 @@ nav li a:hover {
 button[type="submit"] {
     margin-top: 10px;
     margin-bottom: 15px;
-    color: white;
-    background-color: #e98074;
-    font-family: "Dosis", sans-serif;
+    color: black;
+    background-color: #00bdb1;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 .form-control {
     margin: 5px 5px;
 }
+
 
 /********************* Footer ***************************/
 
@@ -154,6 +167,7 @@ button[type="submit"] {
     font-size: 12px;
     margin-bottom: 0;
     text-align: center;
+    color: #00bdb1;
 }
 
 .social-icons {
@@ -161,11 +175,11 @@ button[type="submit"] {
 }
 
 .social-icons a {
-    color: white;
+    color: #00bdb1;
 }
 
 .fas.fa-copyright {
-    color: white;
+    color: #00bdb1;
     font-size: 12px;
 }
 
@@ -178,6 +192,7 @@ button[type="submit"] {
     font-size: 12px;
     font-family: "Source Sans Pro", sans-serif;
     text-align: center;
+    color: #00bdb1;
 }
 
 @media (min-width: 768px) {
